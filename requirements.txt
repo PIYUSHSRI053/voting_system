@@ -1,0 +1,13 @@
+customtkinter
+opencv-python
+face-recognition
+pymongo
+numpy
+pillow
+matplotlib
+seaborn
+twilio
+bcrypt
+qrcode[pil]
+requests
+python-dotenv
