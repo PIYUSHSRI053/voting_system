@@ -1,9 +1,3 @@
-You’re right — that previous README was still “student-level.” It explains, but it doesn’t **sell** your project or build credibility.
-
-Here’s a **proper, polished, recruiter-grade README** — structured like real projects on GitHub that actually get attention.
-
----
-
 # 🗳️ Voting System
 
 A web-based voting application built using **React.js** that allows users to cast votes through a simple and interactive interface. The project focuses on frontend design, state management, and handling user interactions in a voting workflow.
