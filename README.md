@@ -1,108 +1,89 @@
-# 🗳️ Voting System
+# 🗳️ Voting System (Python-Based)
 
-A web-based voting application built using **React.js** that allows users to cast votes through a simple and interactive interface. The project focuses on frontend design, state management, and handling user interactions in a voting workflow.
-
----
-
-## 📌 Overview
-
-This project simulates a basic digital voting system where users can select an option and view results dynamically. It demonstrates core frontend development skills such as component-based architecture, state handling, and UI responsiveness.
+A simple voting system built using Python that allows users to cast votes, store data, and display results dynamically. This project focuses on backend logic, data handling, and user interaction.
 
 ---
 
-## ✨ Key Features
+## 🚀 Features
 
-* Interactive voting interface
-* Option selection with instant feedback
-* Dynamic vote count display
-* Input validation for user actions
-* Responsive UI for different screen sizes
+* 🧑‍💻 User voting interface
+* 🔐 Basic validation to prevent duplicate voting
+* 📊 Real-time vote counting
+* 📁 Data storage using Python
+* ⚡ Simple and lightweight implementation
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category        | Technology  |
-| --------------- | ----------- |
-| Frontend        | React.js    |
-| Styling         | CSS         |
-| Language        | JavaScript  |
-| Version Control | Git, GitHub |
+* Python
+* (Add if used → SQLite / MySQL / JSON / CSV)
 
 ---
 
 ## 📂 Project Structure
 
-```
 voting_system/
-│── public/
-│── src/
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Main pages of the app
-│   ├── App.js          # Root component
-│   └── index.js        # Entry point
-│── package.json
-```
+│── main.py            # Main execution file
+│── database/          # Stores voting data (if applicable)
+│── modules/           # Helper functions / logic
+│── README.md
 
 ---
 
-## ⚙️ Getting Started
+## ▶️ How to Run
 
-### 1. Clone the Repository
+1. Clone the repository:
+   git clone https://github.com/PIYUSHSRI053/voting_system.git
+   cd voting_system
 
-```bash
-git clone https://github.com/PIYUSHSRI053/voting_system.git
-cd voting_system
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Run the Application
-
-```bash
-npm start
-```
-
-The app will run on:
-👉 [http://localhost:3000](http://localhost:3000)
+2. Run the project:
+   python main.py
 
 ---
 
-## ⚠️ Current Limitations
+## 🧠 How It Works
 
-* No backend integration (data is not persistent)
-* No user authentication or authorization
-* No protection against duplicate voting
-* Application is not deployed
-
----
-
-## 🚀 Future Enhancements
-
-* Integrate backend (Node.js + Express + MongoDB)
-* Add user authentication system
-* Implement secure voting logic
-* Deploy using Vercel / Netlify
-* Extend to real-world use cases
+* Users are authenticated using basic logic
+* Each user can vote only once
+* Votes are stored and counted
+* Final results are displayed after voting
 
 ---
 
-## 📊 What This Project Demonstrates
+## ⚠️ Limitations
 
-* Understanding of React component structure
-* State management and user interaction handling
-* Ability to build functional UI from scratch
-* Basic application flow design
+* No advanced authentication (OTP / biometric not implemented)
+* Not production-ready
+* Limited security features
+
+---
+
+## 🔮 Future Improvements
+
+* Web-based interface using Flask or Django
+* Secure authentication system
+* Database integration (MySQL/PostgreSQL)
+* Admin dashboard
+* Deployment on cloud
 
 ---
 
-## 👤 Author
+## 📌 Use Case
 
-**Piyush**
-GitHub: [https://github.com/PIYUSHSRI053](https://github.com/PIYUSHSRI053)
+* College mini-project
+* Learning backend logic
+* Understanding voting system workflow
 
 ---
+
+## 👨‍💻 Author
+
+Piyush Sri
+GitHub: https://github.com/PIYUSHSRI053
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a star ⭐
